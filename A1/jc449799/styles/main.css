@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:rgb(72, 51, 26);
+	color:#FFFFFF;	
+}
+
+header {
+	text-align:center;
+	background-image: url(../images/we-re-rabbits-1439192-1279x850.jpg), url(../images/alice-in-wonderland-872612_1280.jpg), url(../images/book-fair-678264_1280.jpg);
+	background-repeat:no-repeat,no-repeat,no-repeat;
+	background-position:left,center,right;
+	background-size:contain, contain, contain;
+	border-radius:10px;
+}
+
+#head-wrapper {
+	margin: inherit;
+	padding:10px;
+}
+header nav ul {
+	display: inline-block;	
+	border-radius: 10px;
+}
+
+header nav ul li {
+	list-style:none;
+	float:left;
+	margin:0px;
+	display:inline-block;
+    background-color: rgba(129, 90, 44, 0.82);
+	border-right: 1px solid #352f27;
+	padding: 15px;
+}
+
+header nav ul li:hover {
+	background-color: rgb(129, 90, 44);
+}	
+
+header nav ul li a {
+	text-decoration:none;
+	color:rgba(255, 255, 255, 0.68);	
+}
+
+header nav ul li a:hover {
+	color:white;
+}
+
+header h1 {
+	clear:both;
+}
+
+#heading-wrapper img {
+	max-width:90%;
+}
+
+#heading-wrapper {
+	background-color:rgba(0, 0, 0, 0.79);
+	border-radius:10px;
+}
+
+#content-wrapper {
+	padding:15px;
+	background-color:rgba(125, 87, 32, 0.76);
+	margin-top:15px;
+	border-radius: 10px;
+}
+
+#content-wrapper h3,p {
+	width:55%;
+	float:left;
+}
+#content-wrapper img {
+	margin-left:50px;
+	height:300px;
+	width:500px;
+	border-radius:10px;
+}
+
+footer{
+	clear:both;
+}
+.lists ul li {
+	list-style:none;
+	padding-bottom: 5px;
+}
+
+.lists ul li a {
+	text-decoration:none;
+	color: rgba(255, 255, 255, 0.51);
+}
+
+.lists ul li a:hover {
+	color:white;
+}
+
+.lists h4 {
+	padding-left:40px;
+}
+
+#col1 {
+	width: 15%;
+	float: left;
+	margin: 5px 10px 10px 10px;
+	padding: 5px;
+}
+#col2 {
+	width: 15%;
+	float: left;
+	margin: 5px 10px 10px 0px;
+	padding: 5px;	
+}
+#col3 {
+	width: 15%;
+	float: left;
+	margin: 5px 5px 10px 0px;
+	padding: 5px;
+}
+
+#copyrights-wrapper {
+	clear:both;
+}
